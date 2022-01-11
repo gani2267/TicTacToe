@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txt"
+        style="@style/txt"
+        android:text="Player X Turn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/btn2"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/btn3"
+            style="@style/btnStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/btn5"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/btn6"
+            style="@style/btnStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/btn8"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/btn9"
+            style="@style/btnStyle"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetBtn"
+        style="@style/txt"
+        android:textColor="@color/white"
+        android:text="Reset"/>
+
+
+</LinearLayout>
